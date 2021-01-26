@@ -1,0 +1,97 @@
+[
+  {
+    "listName": "niezrzeszeni",
+    "subdivisions": [
+      {
+        "id": 1,
+        "isSubDivisionTeamVisible": false,
+        "subdivisionName": "Pododdział 1",
+        "teams": [
+          {
+            "teamNumber": 1,
+            "teamName": "Zespół 1",
+            "teamType": "HR",
+            "subTeams": [],
+            "isSubTeamVisible": false
+          },
+          {
+            "teamNumber": 2,
+            "teamName": "Zespół 2",
+            "teamType": "Marketing",
+            "subTeams": [],
+            "isSubTeamVisible": false
+          },
+
+          {
+            "isSubTeamVisible": false,
+            "teamNumber": 3,
+            "teamName": "Zespół 3",
+            "teamType": "Analitycy",
+            "subTeams": [
+              {
+                "subTeamNumber": 3.1,
+                "subTeamType": "Kalendarz"
+              },
+              {
+                "subTeamNumber": 3.2,
+                "subTeamType": "Kokpit"
+              },
+              {
+                "subTeamNumber": 3.3,
+                "subTeamType": "Widok"
+              },
+              {
+                "subTeamNumber": 3.4,
+                "subTeamType": "Różności"
+              },
+              {
+                "subTeamNumber": 3.5,
+                "subTeamType": "Szukaj"
+              }
+            ]
+          },
+          {
+            "isSubTeamVisible": false,
+            "teamNumber": 4,
+            "teamName": "Zespół 4",
+            "teamType": "Programisci",
+            "subTeams": [
+              {
+                "subTeamNumber": 4.1,
+                "subTeamType": "Front-end"
+              },
+              {
+                "subTeamNumber": 4.2,
+                "subTeamType": "Middle front-end"
+              },
+              {
+                "subTeamNumber": 4.3,
+                "subTeamType": "Middle-end"
+              },
+              {
+                "subTeamNumber": 4.4,
+                "subTeamType": "Middle back-end"
+              },
+              {
+                "subTeamNumber": 4.5,
+                "subTeamType": "Middle back-end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "isSubDivisionTeamVisible": false,
+        "subdivisionName": "Pododdział 2",
+        "teams": []
+      },
+      {
+        "id": 3,
+        "isSubDivisionTeamVisible": false,
+        "subdivisionName": "Pododdział 3",
+        "teams": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+.header__wrapper {
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.line__wrapper {
+  display: flex;
+  align-items: flex-end;
+  min-height: 20px;
+}
+
+.header__line {
+  width: 1px;
+  background-color: black;
+  margin: auto 15px;
+}
