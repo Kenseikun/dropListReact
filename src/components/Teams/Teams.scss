@@ -11,5 +11,15 @@
 }
 
 .subteams__wrapper {
-  margin: auto 0px;
+  position: relative;
+  margin: auto 10px;
+  &::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: -10%;
+  }
 }

@@ -12,22 +12,23 @@ const TreeHeader = () => {
   return (
     <>
       <div className="header__wrapper">
-        <Checkbox
-          checked={dropListCheck}
-          onChange={handleDropList}
-          defaultChecked
-          indeterminate
-          inputProps={{ "aria-label": "indeterminate checkbox" }}
-        ></Checkbox>
-        <h1>Nagłówek drzewa wielowierszowego</h1>
-      </div>
+        <div className="team__header__wrapper">
+          <Checkbox
+            checked={dropListCheck}
+            onChange={handleDropList}
+            defaultChecked
+            indeterminate
+            inputProps={{ "aria-label": "indeterminate checkbox" }}
+          ></Checkbox>
+          <h1>Nagłówek drzewa wielowierszowego</h1>
+        </div>
 
-      <div className="line__wrapper">
-        <div className="header__line"></div>
-        <div className="line__elements--wrapper">
-          {dropListCheck ? <SubDivisionOne /> : null}
+        <div className="line__wrapper">
+          <div className="line__elements--wrapper">
+            {dropListCheck ? <SubDivisionOne /> : null}
 
-          <h2>Niezrzeszeni</h2>
+            <h2>Niezrzeszeni</h2>
+          </div>
         </div>
       </div>
     </>
